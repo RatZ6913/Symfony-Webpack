@@ -54,14 +54,14 @@ Encore
         config.corejs = '3.23';
     })
 
-    // uncomment if you use Vue.js
-    // .enableVueLoader()
-
     // enables Sass/SCSS support
     .enableSassLoader()
 
     // uncomment if you use TypeScript
     .enableTypeScriptLoader()
+
+    // uncomment if you use Vue.js
+    .enableVueLoader()
 
     // uncomment if you use React
     //.enableReactPreset()
